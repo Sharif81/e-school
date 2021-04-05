@@ -1,0 +1,15 @@
+
+.navbar {
+
+  letter-spacing: 3px;
+  
+}
+.navbar-brand img {
+    width: 220px;
+    height: 70px;
+}
+
+.btn-success {
+    border-radius: 30%;
+    padding: 0px 20px;
+}
