@@ -1,15 +1,100 @@
+body {
+  background-color: lightskyblue;
+}
+
+.bg-gap {
+  margin-bottom: 130px;
+}
+
+.nav-area {
+  background-color: lightskyblue;
+}
+.course-area {
+  margin-bottom: 50px;
+}
 
 .navbar {
-
-  letter-spacing: 3px;
-  
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-item:hover {
+  background-color: #19b36e;
+  border-radius: 20%;  
+}
+
 .navbar-brand img {
     width: 220px;
     height: 70px;
 }
 
+.school-banner {
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+}
+
+.school-banner h1 {
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.student-history {
+  text-align: center;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+}
+
+.student-history img {
+  width: 30%;
+  margin-bottom: 20px;
+  
+}
+
+.student-history-img:hover {
+  transform: scale(0.9);
+}
+
+.course-img {
+  width: 80%;
+  padding: 5px;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+}
+
+.calender {
+  margin-top: 40px;
+}
+
+.calender img {
+  width: 20px;
+}
+
 .btn-success {
-    border-radius: 30%;
-    padding: 0px 20px;
+  border-radius: 30%;
+  font-family: 'Yanone Kaffeesatz',
+}
+
+.testimonial img {
+  width: 150px;
+}
+
+.testimonial h1, p {
+  margin-top: 10px;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+ 
+}
+
+.course-list {
+  text-align: right;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.course-list-gap {
+  margin-top: 50px;
+  
 }
